@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    properties:
+      hibernate:
+        ddl-auto: create-drop
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+        format_sql: true
+  h2:
+    console:
+      enabled: true
